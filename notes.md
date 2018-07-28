@@ -1,6 +1,6 @@
 # JavaScript Syntax:
 
-Keep this under your pillow: [JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+Keep this under my pillow: [JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### types
 
@@ -61,12 +61,40 @@ console.log(`I own a pet ${myPet}.`)
 ```javascript
 
 let needsCoffee = true;
+let needsToUseBathroom = false;
 
 if (needsCoffee === true) {
     console.log('Finding coffee');
-} else {
+} else if (!needsToUseBathroom) {
     console.log('Keep on keeping on!');
+} else {
+    console.log('Finding toilet immediately')
 }
-
 ```
+- "both must be true," we use `&&`.
+- "either can be true," we use `||`.
+
+## switch statement
+
+
+```javascript
+
+let groceryItem = 'papaya';
+
+switch (groceryItem) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+```
+
 
