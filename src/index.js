@@ -15,6 +15,9 @@ var Kitty = function () {
     }
 
 
+
+
+
 };
 
 var app = document.getElementById("main").innerHTML = Kitty.animate;
