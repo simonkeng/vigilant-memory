@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.6/wavesurfer.min.js"></script>
+    </head>
+    <body>
+        <div id="waveform"></div>
+
+    </body>
+
+    <script>
+        const wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'violet',
+            progressColor: 'purple'
+
+        });
+
+        wavesurfer.load('ether.mp3');
+
+    </script>
+
+</html>

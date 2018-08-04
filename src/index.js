@@ -1,5 +1,5 @@
 
-var Kitty = function () {
+const Kitty = function () {
     this.idle = "=^.^=";
     this.blink = "=>.<=";
     this.blinky = "=-.-=";
